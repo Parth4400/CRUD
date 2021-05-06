@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD- utkarshshows</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+</head>
+<style>
+body{
+    background-image:url('{% static 'enroll/image/img3.jpg' %}');
+    color:black;
+    /* background-color: grey; */
+}
+
+</style>
+<body>
+
+<div class="container mt-5">
+<h2 class='text-center alert alert-danger'> CLASS based CRUD Project</h2>
+
+
+{% block content %} 
+
+
+
+
+ {% endblock content %}
+
+
+
+<h2></h2>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src='{% static 'enroll/js/jquery.js' %}'></script>
+<script src='{% static 'enroll/js/popper.js' %}'></script>
+<script src='{% static 'enroll/js/bootstrap.js' %}'></script>
+</body>
+</html>
